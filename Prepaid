@@ -1,0 +1,24 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+ 'event': 'prepaid.purchase',
+ 'transactionId': '1234',
+ 'transactionAffiliation': 'AmberScript-NL',
+ 'transactionTotal': 30.00,
+ 'transactionTax': 0.00,
+ 'transactionShipping': 0.00,
+ 'transactionProducts': [{
+   'sku': 'P1_WO',
+   'name': 'Prepaid World?',
+   'category': 'Prepaid',
+   'price': 10.00,
+   'quantity': 3
+ },{
+   'sku': 'P',
+   'name': 'Socks',
+   'category': 'Apparel',
+   'price': 9.99,
+   'quantity': 2
+ }]
+});
+</script>
