@@ -1,0 +1,18 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+ 'event': 'purchase.subscription',
+ 'currencyCode': 'EUR',
+ 'transactionId': '1234',
+ 'transactionAffiliation': 'AmberScript-NL',
+ 'transactionTotal': 50.00,
+ 'transactionTax': 8.68,
+ 'transactionProducts': [{
+   'sku': 'A3_NL',
+   'name': 'Subscription Netherlands?',
+   'category': 'Subscription',
+   'price': 0.17,
+   'quantity': 300
+ }]
+});
+</script>
