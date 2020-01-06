@@ -1,25 +1,18 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
- 'currencyCode': 'EUR',
  'event': 'purchase.prepaid',
+ 'currencyCode': 'EUR',
  'transactionId': '1234',
  'transactionAffiliation': 'AmberScript-NL',
- 'transactionTotal': 30.00,
- 'transactionTax': 6.30,
- 'transactionShipping': 0.00,
+ 'transactionTotal': 15.00,
+ 'transactionTax': 2.60,
  'transactionProducts': [{
    'sku': 'P1_WO',
    'name': 'Prepaid World?',
    'category': 'Prepaid',
-   'price': 10.00,
-   'quantity': 3
- },{
-   'sku': 'P',
-   'name': 'Socks',
-   'category': 'Apparel',
-   'price': 9.99,
-   'quantity': 2
+   'price': 0.25,
+   'quantity': 1
  }]
 });
 </script>
