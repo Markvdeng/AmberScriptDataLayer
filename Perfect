@@ -1,0 +1,18 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+ 'event': 'purchase.perfect',
+ 'currencyCode': 'EUR',
+ 'transactionId': '1234',
+ 'transactionAffiliation': 'AmberScript-NL',
+ 'transactionTotal': 38.00,
+ 'transactionTax': 6.60,
+ 'transactionProducts': [{
+   'sku': '??_??_?',
+   'name': 'Perfect Netherlands Clean-read?',
+   'category': 'Perfect',
+   'price': 0.18,
+   'quantity': 214
+ }]
+});
+</script>
