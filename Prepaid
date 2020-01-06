@@ -8,8 +8,8 @@ dataLayer.push({
  'transactionTotal': 15.00,
  'transactionTax': 2.60,
  'transactionProducts': [{
-   'sku': 'P1_WO',
-   'name': 'Prepaid World?',
+   'sku': 'P1_NL_2',
+   'name': 'Prepaid Netherlands?',
    'category': 'Prepaid',
    'price': 0.25,
    'quantity': 1
