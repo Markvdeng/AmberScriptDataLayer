@@ -8,7 +8,9 @@ window.dataLayer.push({
  'country_code': 'NL',
  'sector': 'HLT',
  'company': 'Test',
- 'user_id': '12345678'
- 'product': 'transcription' 
+ 'user_id': '12345678',
+ 'export_product': 'transcription',
+ 'export_type': 'text',
+ 'export_format': 'json'
  });
 </script>
