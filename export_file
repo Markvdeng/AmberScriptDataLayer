@@ -1,0 +1,14 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'export_file',
+ 'name': 'mark test',
+ 'email': 'mark@test.nl',
+ 'language': 'en',
+ 'country_code': 'NL',
+ 'sector': 'HLT',
+ 'company': 'Test',
+ 'user_id': '12345678'
+ 'product': 'transcription' 
+ });
+</script>
