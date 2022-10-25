@@ -1,1 +1,17 @@
-
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'place_order',
+ 'name': 'mark test',
+ 'email': 'mark@test.nl',
+ 'language': 'en',
+ 'country_code': 'NL',
+ 'sector': 'HLT',
+ 'company': 'Test',
+ 'product': 'transcription' OR 'captions' OR 'subtitles'
+ 'service': 'automatic' OR 'manual',
+ 'options': ['rush', 'verbatim'],
+ 'upload_batch_id': '12345678',
+ 'user_id': '12345678'
+ });
+</script>
