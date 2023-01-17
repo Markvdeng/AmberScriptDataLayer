@@ -2,7 +2,7 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
  'event': 'purchase', //when a manual/perfect payment takes place
- 'purchase_category': 'perfect', //when a manual/perfect payment takes place
+ 'purchase_category': 'perfect', //if it's a perfect, prepaid, or (recurring) subscription payment
  'currency': 'EUR', //currency code of the payment
  'transaction_id': '1234', //one of these formats: pi_3MPq2gKCFI2T2mwf1QxYl98u, AMB2022200421, adf7f00c-65af-4c17-a59f-e805eb273f51
  'affiliation': 'Amberscript-NL', //Amberscript-country code
