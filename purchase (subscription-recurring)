@@ -16,6 +16,7 @@ dataLayer.push({
  'company': 'Test',
  'user_id': '12345678',
  'coupon': 'ABCDEFG123', //discount code if used
+ 'new_customer': 'false', //if this is a customer's first payment (email exists in database or not). Will always be false for recurring subscriptions. 
  'items': [{ //the products bought
    'item_id': 'A4_NL_2', //the product code
    'item_name': 'Subscription NL', //this is an example, curious to see which options are available
