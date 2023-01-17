@@ -16,7 +16,7 @@ dataLayer.push({
  'company': 'Test',
  'user_id': '12345678',
  'coupon': 'ABCDEFG123', //discount code if used
- 'new_customer': 'true',
+ 'new_customer': 'true', //if this is a customer's first payment (email exists in database or not).
  'items': [{ //the products bought
    'item_id': '??_??_?', //there is no product_code for perfect/manual if I remember, but let's set a fixed item_id then
    'item_name': 'Perfect Netherlands Clean-read', //this is an example, curious to see which options are available
