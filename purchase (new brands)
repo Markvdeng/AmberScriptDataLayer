@@ -1,0 +1,25 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+ 'event': 'purchase', //when a succesful payment takes place
+ 'purchase_category': 'perfect', //if it's a perfect
+ 'currency': 'EUR', //currency code of the payment
+ 'transaction_id': '1234', //internal transaction ID of the payment
+ 'affiliation': 'Abtipper', //Brand Name
+ 'value': 38.00, //total of purchase
+ 'tax': 6.60, //total tax in purchase (often 0 I think)
+ 'email': 'mark@test.nl',
+ 'country_code': 'DE',
+ 'company': 'Test',
+ 'user_id': '12345678',
+ 'coupon': 'ABCDEFG123', //discount code if used
+ 'new_customer': 'true', //if this is a customer's first payment (email exists in database or not).
+ 'items': [{ //the products bought
+   'item_id': '??_??_?',
+   'item_name': 'Clean-read', //this is an example, curious to see which options are available
+   'item_category': 'Perfect',
+   'price': 0.18, //price per minute audio
+   'quantity': 214 //total minutes
+ }]
+});
+</script>
