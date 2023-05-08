@@ -10,5 +10,6 @@ window.dataLayer.push({
  'product': '[Wissenschaftliche Transkription, Einfache Transkription]', //etc
  'product_id': '50, 51', //value related to the product
  'gclid': '247589735401-1394819130-1313', //click ID from Google Ads if applicable
+ 'submit_time': '2009-06-15T13:45:30'
  });
 </script>
