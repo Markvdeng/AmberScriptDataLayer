@@ -1,0 +1,12 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'place_order',
+ 'email': 'mark@test.nl', //IF ALREADY LOGGED IN
+ 'file_language': 'en',
+ 'transcription_rules': 'verbatim' OR 'clean-read' OR 'scientific'
+ 'speakers': '2',
+ 'delivery_time': '1', //1, 3, or 5 days
+ 'user_id': '12345678' //IF ALREADY LOGGED IN
+ });
+</script>
