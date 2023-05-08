@@ -1,0 +1,9 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'login',
+ 'email': 'mark@test.nl',
+ 'country_code': 'NL',
+ 'user_id': '12345678'
+ });
+</script>
