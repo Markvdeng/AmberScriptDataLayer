@@ -1,0 +1,14 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'generate_lead',
+ 'email': 'mark@test.nl',
+ 'phone_number': '0612345678',
+ 'country_code': 'NL',
+ 'company': 'Test',
+ 'extra_options': '[3-Tage-Express, 1-Tag-Express]', //etc
+ 'product': '[Wissenschaftliche Transkription, Einfache Transkription]', //etc
+ 'product_id': '50, 51', //value related to the product
+ 'gclid': '247589735401-1394819130-1313', //click ID from Google Ads if applicable
+ });
+</script>
