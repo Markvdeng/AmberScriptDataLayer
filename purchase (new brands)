@@ -5,7 +5,7 @@ dataLayer.push({
  'purchase_category': 'perfect', //if it's a perfect
  'currency': 'EUR', //currency code of the payment
  'transaction_id': '1234', //internal transaction ID of the payment
- 'affiliation': 'Abtipper', //Brand Name
+ 'affiliation': 'Transkripto', //Brand Name
  'value': 38.00, //total of purchase
  'tax': 6.60, //total tax in purchase (often 0 I think)
  'email': 'mark@test.nl',
