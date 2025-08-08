@@ -1,0 +1,22 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+ 'event': 'purchase', //when a first subscription is placed
+ 'purchase_category': 'subscription', //if it's prepaid, or (recurring) subscription payment
+ 'purchase_interval': 'monthly', //if it's a monthly or yearly payment
+ 'currency': 'EUR', //currency code of the payment
+ 'transaction_id': '1234', //id of the transaction
+ 'value': 25.00, //total of purchase
+ 'tax': 1.50, //total tax in purchase (often 0 I think)
+ 'email': 'mark@test.nl',
+ 'user_id': '12345678',
+ 'new_customer': 'true', //if this is a customer's first payment
+ 'items': [{ //the products bought
+   'item_id': '123456', //the product code
+   'item_name': 'subscription_monthly', //this is an example
+   'item_category': 'Subscription', //if it's prepaid, or (recurring) subscription payment
+   'price': 25.00, //price paid for the product
+   'quantity': 1 //probably always 1
+ }]
+});
+</script>
