@@ -1,0 +1,8 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'trial_start', 
+ 'email': 'mark@test.nl', //convert to hashed email
+ 'user_id': '12345678' //unique ID for the user, 
+ });
+</script>
