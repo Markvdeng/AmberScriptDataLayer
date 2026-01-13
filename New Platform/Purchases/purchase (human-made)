@@ -1,28 +1,38 @@
 <script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
- 'event': 'purchase', //when a manual/perfect payment takes place
- 'purchase_category': 'perfect', //if it's a perfect, prepaid, or (recurring) subscription payment
- 'currency': 'EUR', //currency code of the payment
- 'transaction_id': '1234', //one of these formats: pi_3MPq2gKCFI2T2mwf1QxYl98u, AMB2022200421, adf7f00c-65af-4c17-a59f-e805eb273f51
- 'affiliation': 'Amberscript-NL', //Amberscript-country code
- 'value': 38.00, //total of purchase
- 'tax': 6.60, //total tax in purchase (often 0 I think)
- 'name': 'mark test',
- 'email': 'mark@test.nl',
- 'language': 'en',
- 'country_code': 'NL',
- 'sector': 'HLT',
- 'company': 'Test',
- 'user_id': '12345678',
- 'coupon': 'ABCDEFG123', //discount code if used
- 'new_customer': 'true', //if this is a customer's first payment (email exists in database or not).
- 'items': [{ //the products bought
-   'item_id': '??_??_?', //there is no product_code for perfect/manual if I remember, but let's set a fixed item_id then
-   'item_name': 'Perfect Netherlands Clean-read', //this is an example, curious to see which options are available
-   'item_category': 'Perfect', //if it's perfect, automatic, or a (recurring) subscription
-   'price': 0.18, //price per minute audio
-   'quantity': 214 //total minutes
- }]
+  event: 'purchase',
+
+  // Core purchase information
+  purchase_category: 'perfect',           // perfect / prepaid / recurring
+  currency:        'EUR',
+  transaction_id:  '1234',                // pi_3M..., AMB..., or UUID format
+  affiliation:     'Amberscript-NL',
+
+  // Financials
+  value: 38.00,                           // total revenue (including tax)
+  tax:   6.60,                            // total tax amount
+
+  // Customer / context information
+  name:          'mark test',
+  email:         'mark@test.nl',
+  language:      'en',
+  country_code:  'NL',
+  sector:        'HLT',                   // e.g. Health, Legal, Tech...
+  company:       'Test',
+  user_id:       '12345678',
+  new_customer:  'true',                  // 'true' / 'false' (string!)
+  coupon:        'ABCDEFG123',            // discount code or empty string
+
+  // Items array (normally 1 item for perfect payments)
+  items: [
+    {
+      item_id:      '??_??_?',                    // fixed placeholder for manual/perfect payments
+      item_name:    'Perfect Netherlands Clean-read',
+      item_category: 'Perfect',
+      price:         0.18,                        // € per minute
+      quantity:      214                          // total minutes
+    }
+  ]
 });
 </script>
